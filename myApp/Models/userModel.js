@@ -11,15 +11,15 @@ const userSchema = mongoose.Schema({
     unique: true,
     validate: function () {
       return emailValidator.validate(this.email);
-    },
+    }
   },
   password: { type: String, required: true, minLength: 6 },
   confirmPassword: {
     type: String,
     minLength: 6,
-    validate: function () {
+    validate: [function () {
       return this.password == this.confirmPassword;
-    },
+    },"password and confirm password must be same"],
   },
 });
 
