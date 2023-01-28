@@ -27,24 +27,25 @@ For Login - [POST] http://localhost:3000/api/user/login
     "password" : "admin2"
 }
 
+
 For logout - [GET] http://localhost:3000/api/user/logout
 
 Reset password - [POST] http://localhost:3000/api/user/resetPassword
-req format -
+- req format
 {
     "newPassword" : "admin222",
     "confirmNewPassword" : "admin222"
 }
 
 Create blog - [POST] http://localhost:3000/api/blog
-req format -
+- req format 
 {
     "title" : "28",
     "description" : "hello"
 }
 
 update blog - [PATCH] http://localhost:3000/api/blog/63d51a71a91954e01e750bbc
-req format
+- req format
 {
     "title": "updated blog",
     "description": "update description"
