@@ -1,12 +1,12 @@
 const express = require("express");
-const { protectRoute } = require("../controller/authController");
+const { protectRoute } = require("../Controller/authController");
 const blogRouter = express.Router();
 const {
   getAllBlogs,
   createBlog,
   updateBlog,
   deleteBlog,
-} = require("../controller/blogController");
+} = require("../Controller/blogController");
 
 blogRouter.use(protectRoute);
 

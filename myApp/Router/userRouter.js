@@ -6,7 +6,7 @@ const {
   logout,
   resetPassword,
   protectRoute,
-} = require("../controller/authController");
+} = require("../Controller/authController");
 
 // user's work
 userRouter.route("/signup").post(signup);
