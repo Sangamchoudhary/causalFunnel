@@ -1,4 +1,4 @@
-------------------------------------------------------- An assignment by causalFunnel team  --------------------------------------------------------------
+----------------------------- An assignment by causalFunnel team  ------------------------------
 
 Insted of running app in local environment one can directly make an API call on render hosted server for testing
 Link - https://blogbackend-ciko.onrender.com/
