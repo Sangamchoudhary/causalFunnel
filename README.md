@@ -6,8 +6,8 @@ Link - https://blogbackend-ciko.onrender.com/
 
 run these commands in order to start this backend app in local environment
 
-step 1 : npm install
-step 2 : npm run dev
+- npm install 
+- npm run dev
 
 After setting up in local environment 
 
