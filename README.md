@@ -1,2 +1,1 @@
-# causalFunnel
-An assignment by causalFunnel team
+------------------- An assignment by causalFunnel team  -------------------------
