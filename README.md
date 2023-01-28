@@ -12,7 +12,7 @@ run these commands in order to start this backend app in local environment
 After setting up in local environment 
 
 For signup  - [POST] http://localhost:3000/api/user/signup
-req format - 
+- req format 
 {
     "name": "Sangam Choudhary",
     "email": "admin5@admin.com",
@@ -22,7 +22,7 @@ req format -
 
 
 For Login - [POST] http://localhost:3000/api/user/login
-{
+- req format {
     "email" : "admin2@admin.com",
     "password" : "admin2"
 }
