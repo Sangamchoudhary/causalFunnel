@@ -29,3 +29,6 @@ app.use("/api/user", userRouter); // base url, router-to-use
 
 const blogRouter = require("./Router/blogRouter");
 app.use("/api/blog", blogRouter); // base url, router-to-use
+
+const getAllBlogs = require("./Router/getAllBlogsRouter");
+app.use("/", getAllBlogs); // base url, router-to-use
